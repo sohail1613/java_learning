@@ -11,7 +11,7 @@ public class Que2 {
         System.out.print("Enter base of triangle: ");
         int base = sc.nextInt();
 
-        System.out.print("Enter height of triangle: ");
+        System.out.print("Enter height of the triangle: ");
         int height = sc.nextInt();
         double area = 0.5*(base*height);
 
