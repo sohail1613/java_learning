@@ -15,6 +15,6 @@ public class Que6 {
         int diagonal2= sc.nextInt();
 
         int area= (diagonal1*diagonal2)/2;
-        System.out.print("Area of Rhombus is: "+area);
+        System.out.print("Area of the Rhombus is: "+area);
     }
 }
