@@ -12,8 +12,8 @@ public class Que3 {
 
         System.out.print("Enter height of rectangle: ");
         int height = sc.nextInt();
-
-        System.out.println("Area of rectangle is: "+base+height);
+        int area= base*height;
+        System.out.println("Area of rectangle is: "+area);
 
     }
 }
