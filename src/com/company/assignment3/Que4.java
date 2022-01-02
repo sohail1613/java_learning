@@ -13,7 +13,7 @@ public class Que4 {
         System.out.print("Enter height: ");
         int height=sc.nextInt();
 
-        int area= (base*height)/2;
-        System.out.print("Area of isosceles traingle is: "+area);
+        int area= (1*base*height)/2;
+        System.out.print("Area of isosceles triangle is: "+area);
     }
 }
