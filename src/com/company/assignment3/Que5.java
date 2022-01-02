@@ -14,7 +14,7 @@ public class Que5 {
         System.out.print("Enter height: ");
         int height = sc.nextInt();
 
-        int area= (base*height)/2;
+        int area= base*height;
 
         System.out.print("Area of the parallelogram is: "+area);
 
