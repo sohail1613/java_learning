@@ -14,7 +14,7 @@ public class Que15 {
         System.out.print("Enter length: ");
         int length= sc.nextInt();
 
-        double volume=0.5*base*height*length;
+        double volume=0.5*base*height*length; //formula for triangular prism
 
         System.out.print("Volume of prism is: "+volume+" cm^3");
     }
