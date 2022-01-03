@@ -9,8 +9,8 @@ public class Que9 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter sides of triangle: ");
-        int side=sc.nextInt();
-        int perimeter=3*side;  //perimeter= 3*sides
+        double side=sc.nextInt();
+        double perimeter=3*side;  //perimeter= 3*sides
 
         System.out.println("The perimeter of the triangle is: "+perimeter);
     }
