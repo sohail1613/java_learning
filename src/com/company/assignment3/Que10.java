@@ -10,10 +10,10 @@ public class Que10 {
         System.out.print("Enter base: ");
         int base= sc.nextInt();
 
-        System.out.print("Enter side: ");
-        int side= sc.nextInt();
+        System.out.print("Enter height: ");
+        int height= sc.nextInt();
 
-        int perimeter= 2*(base*side);  // formula =2(base*side)
+        int perimeter= 2*(base+height);  // formula =2(base+height)
 
         System.out.print("The perimeter of parallelogram is: "+perimeter);
     }
