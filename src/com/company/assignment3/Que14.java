@@ -13,10 +13,10 @@ public class Que14 {
 
         System.out.print("Enter height of cone: ");
         int height= sc.nextInt();
-        height=height/3;  //dividing height by 3 to fit in formula
+       // height=height/3;  //dividing height by 3 to fit in formula
 
-        double PI=3.14; //constant
-        double volume=PI*radius*radius*height;
+        double PI=3.14285714286; //constant
+        double volume=PI*(radius*radius)*height/3;
 
         System.out.print("The volume of cine is: "+volume);
 
