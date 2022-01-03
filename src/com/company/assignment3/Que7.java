@@ -10,7 +10,7 @@ public class Que7 {
         System.out.print("Enter side value: ");
         int side= sc.nextInt();
 
-        double area=(1.73*side*side); // formula=((3^1/2)*side^2) / 4
+        double area=(1.73*side*side)/4; // formula=((3^1/2)*side^2) / 4
 
         System.out.print("Area of Equilateral triangle is: "+area);
     }
