@@ -15,7 +15,7 @@ public class Que16 {
         double PI=3.14;
 
         double volume=PI*radius*height;
-        System.out.println("The volume of cylinder is: "+volume);
+        System.out.println("Volume of the cylinder is: "+volume);
 
 
     }
