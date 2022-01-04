@@ -11,8 +11,8 @@ public class Que19 {
         int radius=sc.nextInt();
         System.out.print("Enter height of cylinder: ");
         int height= sc.nextInt();
-        double PI=3.14;
-        double surfaceArea=2*PI*radius*height; // formula=2*pi*r*h
+       // double PI=3.14;
+        double surfaceArea=(22*radius*(radius+height))/7; // formula=pi*r(r+h)
 
         System.out.println("Surface area of cylinder is: "+surfaceArea);
     }
