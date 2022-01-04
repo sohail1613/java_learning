@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Que20 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter side of cube: ");
+        System.out.print("Enter sides of cube: ");
         int side= sc.nextInt();
 
         //formula for TSA=6(side*side)
