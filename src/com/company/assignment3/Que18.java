@@ -14,7 +14,7 @@ public class Que18 {
         System.out.print("Enter height: ");
         int height= sc.nextInt();
 
-        int volume=(length*width*height)/3;
+        int volume=(length*width*height)/3; //right rectangular pyramid
         System.out.println("Volume of Pyramid is: "+volume);
     }
 }
